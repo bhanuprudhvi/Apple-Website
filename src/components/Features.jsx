@@ -57,6 +57,7 @@ const Features = () => {
                 id="exploreVideo"
                 className="w-full h-full object-cover object-center"
                 preload="none"
+                loop
                 muted
                 autoPlay
                 ref={videoRef}
